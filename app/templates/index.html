@@ -1,0 +1,561 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+    <body data-spy="scroll" data-target="#main-navbar">
+        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    	<div class="body">
+			
+        	<!-- Begin text carousel intro section -->
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(/static/img/slider-bg.jpg.png);">
+				
+				<div class="container">
+					<div class="caption text-center text-white" data-stellar-ratio="0.7">
+
+						<div id="owl-intro-text" class="owl-carousel">
+							<div class="item">
+								<h1>We do Awesome things</h1>
+								<p>One tiny improvement could help change the world. </p>
+                                <div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="/login" target="_blank" role="button">Login</a>
+							</div>
+							<div class="item">
+								<h1>Join us</h1>
+								<p>To Create a more Energy Efficient Community.</p>
+								<div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="/login" target="_blank" role="button">Login</a>
+							</div>
+							<div class="item">
+								<h1>I'm E-saver</h1>
+								<p>Let's have a look at your electricity usage.</p>
+								<div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="/login" target="_blank" role="button">Login</a>
+							</div>
+						</div>
+
+					</div> <!-- /.caption -->
+				</div> <!-- /.container -->
+
+			</section>
+			<!-- End text carousel intro section -->
+                
+                
+                
+                
+            <!-- Begin about section -->
+			<section id="about-section" class="page bg-style1">
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h2> About Us</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+
+                <!-- Begin rotate box-1 -->
+                <div class="rotate-box-1-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-10">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                                    <span class="rotate-box-icon"><i class="fa fa-users"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Who We Are?</h4>
+                                        <p>We are a group of master students from Imperial College, currently working on analysing and presenting electricity disaggregation data.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4 col-sm-10">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                                    <span class="rotate-box-icon"><i class="fa fa-diamond"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>What We Do?</h4>
+                                        <p>We set up a platform for any users to upload their electricity usage data and compare theirs with our exclusive dataset across the UK with ease</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4 col-sm-10">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                                    <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Why We Do It?</h4>
+                                        <p> We wish to allow more users to understand the proportion of their electricity usage every day and encourage them to take action to reduce their electricity usage.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div>
+                <!-- End rotate box-1 -->
+                
+                <div class="extra-space-l"></div>
+                
+              
+            <!-- Begin Services -->
+            <section id="services-section" class="page text-center">
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Functions</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">what our app does</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+            
+                <!-- Begin roatet box-2 -->
+                <div class="rotate-box-2-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                    <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Visualisation</h4>
+                                        <p>Presents the energy usage data in a easily understandable manner.</p>
+                                    </div>
+                                </a>
+                            </div>
+            
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                    <span class="rotate-box-icon"><i class="fa fa-pie-chart"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Comparision</h4>
+                                        <p>Users can compare their energy consumptions with friends.</p>
+                                    </div>
+                                </a>
+                            </div>
+            
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                    <span class="rotate-box-icon"><i class="fa fa-cloud"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Customisation</h4>
+                                        <p>Users can upload their own data and adjust the diagrams according to their own preferences .</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                    <span class="rotate-box-icon"><i class="fa fa-pencil"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Advises</h4>
+                                        <p>We will give advices to users on how to improve energy effiency.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                    
+                     <!-- /.container -->
+                </div>
+                <!-- End rotate-box-2 -->
+            </section>
+            <!-- End Services -->
+              
+              
+              
+              
+            <!-- Begin testimonials -->
+            <section id="testimonial-section">
+                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(/static/img/testimonial-bg.jpg);">
+                    <div class="cover"></div>
+                    <!-- Begin page header-->
+                    <div class="page-header-wrapper">
+                        <div class="container">
+                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                <h2>Benefits</h2>
+                                <div class="devider"></div>
+                                <p class="subtitle">Why is Energy Efficiency Important?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End page header-->
+                    <div class="container">
+                        <div class="testimonial-inner center-block text-center">
+                            <div id="owl-testimonial" class="owl-carousel">
+                                <div class="item">
+                                    <blockquote>
+                                        <p> In 2015, 130M kWh eletricity energy, an equivelance of burning 1.1M trees, was wasted on boiling water that was not used eventually.</p>
+                                        <footer><cite title="Source Title"></cite></footer>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                        <p> If you use washing machines at night, you can save £27.2 pounds per month.</p>
+                                        <footer><cite title="Source Title"></cite></footer>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                        <p> 92% of users do not use the energy saving features in their electricity appliances </p>
+                                        <footer><cite title="Source Title"></cite></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End testimonials -->
+                
+
+
+                
+            <!-- Begin counter up -->
+
+	    <section id="counter-section">                					
+				<div id="counter-up-trigger" class="counter-up text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(/static/img/counter-bg.jpg);">
+					<div class="cover"></div>
+                    <!-- Begin page header-->
+                    <div class="page-header-wrapper">
+                        <div class="container">
+                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                <h2>Our research</h2>
+                                <div class="devider"></div>
+                                <p class="subtitle">our results area rely on a large sample size</p>
+                            </div>
+                        </div>
+                    </div>
+		    
+                    <!-- End page header-->
+					<div class="container">
+
+						<div class="row">
+
+						  	<div class="fact text-center col-md-3 col-sm-6">
+								<div class="fact-inner">
+									<i class="fa fa-users fa-3x"></i>
+                                    <div class="extra-space-l"></div>
+									<span class="counter">195</span>
+									<p class="lead">households</p>
+								</div>
+							</div>
+
+							<div class="fact text-center col-md-3 col-sm-6">
+								<div class="fact-inner">
+								  <i class="fa fa-plug fa-3x"></i>
+                                    <div class="extra-space-l"></div>
+									<span class="counter">18</span>
+									<p class="lead">catergories of appliances</p>
+								</div>
+							</div>
+
+							<div class="fact text-center col-md-3 col-sm-6">
+								<div class="fact-inner">
+									<i class="fa fa-calendar fa-3x"></i>
+                                    <div class="extra-space-l"></div>
+									<span class="counter">3</span>
+									<p class="lead">years of sample period</p>
+								</div>
+							</div>
+
+							<div class="fact last text-center col-md-3 col-sm-6">
+								<div class="fact-inner">
+									<i class="fa fa-bar-chart fa-3x"></i>
+                                    <div class="extra-space-l"></div>
+									<span class="counter">2</span>
+									<p class="lead">million data logs</p>
+								</div> 
+							</div> 
+
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div>
+            </section>
+			<!-- End counter up -->
+                
+                
+                
+                
+                <!-- Begin team-->
+                <section id="team-section" class="page">
+                    <!-- Begin page header-->
+                    <div class="page-header-wrapper">
+                        <div class="container">
+                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                <h2>Our Team</h2>
+                                <div class="devider"></div>
+                                <p class="subtitle">Meet our experts</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End page header-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="team-items">
+                              <div>
+				         <div class="col-sm-2">
+                                <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                        <div class="team-item">
+                                            <div class="team-triangle">
+                                                <div class="content">
+                                                    <img src="/static/img/team/jack.jpg" alt="title"/> 
+                                                    <div class="team-hover text-center">
+                                                        <i class="fa fa-male"></i>
+                                                        <p>Jack Kelly</p>
+                                                    </div>
+						</div>
+                                            </div>
+                                        </div> 
+                                </div>
+                              </div>
+                              <div class="col-sm-2">
+                                <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                        <div class="team-item">
+                                            <div class="team-triangle">
+                                                <div class="content">
+                                                    <img src="/static/img/team/lucy.jpg" alt="title"/> 
+                                                    <div class="team-hover text-center">
+                                                        <i class="fa fa-female"></i>
+                                                        <p>Lu Cui</p>
+                                                    </div>
+						</div>
+                                            </div>
+                                        </div> 
+                                </div>
+                              </div>
+                              <div class="col-sm-2">
+                                <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                  <div class="team-item">
+                                    <div class="team-triangle">
+                                      <div class="content">
+                                        <img src="/static/img/team/chris.jpg" alt="title"/>
+                                        <div class="team-hover text-center">
+                                          <i class="fa fa-male"></i>
+                                          <p>Chris Cheung</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="col-sm-2">
+                                <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                  <div class="team-item">
+                                          <div class="team-triangle">
+                                            <div class="content">
+                                              <img src="/static/img/team/colman.jpg" alt="title"/>
+                                              <div class="team-hover text-center">
+                                                        <i class="fa fa-male"></i>
+                                                        <p>Colman Yau</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-2">
+                                    <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                        <div class="team-item">
+                                            <div class="team-triangle">
+                                                <div class="content">
+                                                    <img src="/static/img/team/qi.jpg" alt="title" align="right"/>
+                                                    <div class="team-hover text-center">
+                                                        <i class="fa fa-female"></i>
+                                                        <p>Qi Wang</p>
+                                                    </div>
+                                               </div>
+                                            </div>
+                                        </div>
+				    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                        <div class="team-item">
+                                            <div class="team-triangle">
+                                                <div class="content">
+                                                    <img src="/static/img/team/lauren.jpg" alt="title"/>
+                                                    <div class="team-hover text-center">
+                                                        <i class="fa fa-female"></i>
+                                                        <p>Lauren Anders</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- End team-->
+                
+                
+                
+        
+                
+                
+                
+            <!-- Begin social section -->
+			<section id="social-section">
+            
+                 <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Join Us</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">Follow us on social networks</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+                <div class="container">
+                	<ul class="social-list">
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class="fa fa-twitter"></i></span></a></li>
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.5s"><span class="rotate-box-icon"><i class="fa fa-google-plus"></i></span></a></li>
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.6s"><span class="rotate-box-icon"><i class="fa fa-pinterest-p"></i></span></a></li>
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.7s"><span class="rotate-box-icon"><i class="fa fa-tumblr"></i></span></a></li>
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon"><i class="fa fa-dribbble"></i></span></a></li>                      
+                    </ul>
+                </div>
+                
+            </section>
+            <!-- End social section -->
+                
+                
+                
+                
+            <!-- Begin contact section -->
+			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(/static/img/map-bg.jpg);">
+            <div class="cover"></div>
+            
+                 <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Contacts</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">All to contact us</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+                <div class="contact wow bounceInRight" data-wow-delay="0.4s">
+                    <div class="container">
+                    	<div class="row">
+                        
+                            <div class="col-sm-6">
+                                <div class="contact-info">
+                                    <h4>Our Address</h4>
+                                    <ul class="contact-address">
+			              <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; 180 Queen's Gate Road, Huxley Building ,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; South Kensington Campus ,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; London UK SW7 5PE</li>
+			                            <li><i class="fa fa-phone"></i>&nbsp; 44 -20 -7589 -5111</li>
+			                            <li><i class="fa fa-print"></i>&nbsp; 44 -20 -7589 -5111</li>
+			                            <li><i class="fa fa-envelope"></i> info.doc@ic.ac.uk</li>
+			                            <li><i class="fa fa-skype"></i> imperial</li>
+			                        </ul>
+                                </div>
+                            </div>
+                        
+                        	<div class="col-sm-6">
+                                <div class="contact-form">
+                                	<h4>Write to us</h4>
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Subject" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
+                                    </form>
+                                </div>	
+                            </div>
+                                                                                
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div>
+            </section>
+            <!-- End contact section -->
+                
+                
+
+                
+            <!-- Begin footer -->
+            <footer class="text-off-white">
+            
+                <div class="footer-top">
+                	<div class="container">
+                    	<div class="row wow bounceInLeft" data-wow-delay="0.4s">
+
+                            <div class="col-sm-6 col-md-4">
+                            	<h4>Useful Links</h4>
+                                <ul class="imp-links">
+                                	<li><a href="">About</a></li>
+                                	<li><a href="">Services</a></li>
+                                	<li><a href="">Press</a></li>
+                                	<li><a href="">Copyright</a></li>
+                                	<li><a href="">Advertise</a></li>
+                                	<li><a href="">Legal</a></li>
+                                </ul>
+                            </div>
+                        
+                        	<div class="col-sm-6 col-md-4">
+                                <h4>Subscribe</h4>
+                            	<div id="footer_signup">
+                                    <div id="email">
+                                        <form id="subscribe" method="POST">
+                                            <input type="text" placeholder="Enter email address" name="email" id="address" data-validate="validate(required, email)"/>
+                                            <button type="submit">Submit</button>
+                                            <span id="result" class="section-description"></span>
+                                        </form> 
+                                   </div>
+                                </div> 
+                            </div>
+				
+                          
+            <!-- End footer -->
+
+            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+            </div>
+        <!-- body ends -->
+        
+        <!-- Plugins JS -->
+		<script src="/static/inc/jquery/jquery-1.11.1.min.js"></script> 
+		<script src="/static/inc/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/static/inc/owl-carousel/js/owl.carousel.min.js"></script>
+		<script src="/static/inc/stellar/js/jquery.stellar.min.js"></script>
+		<script src="/static/inc/animations/js/wow.min.js"></script> 
+		<script src="/static/inc/waypoints.min.js"></script> 
+		<script src="/static/inc/isotope.pkgd.min.js"></script> 
+		<script src="/static/inc/classie.js"></script> 
+		<script src="/static/inc/jquery.easing.min.js"></script> 
+		<script src="/static/inc/jquery.counterup.min.js"></script> 
+		<script src="/static/inc/smoothscroll.js"></script> 
+
+		<!-- Theme JS -->
+		<script src="/static/js/theme.js"></script> 
+       
+        
+       
+
+  {% endblock %} 
+  

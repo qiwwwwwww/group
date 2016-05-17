@@ -1,0 +1,108 @@
+<!-- extend user layout -->
+{% extends "user.html" %}
+
+{% block content %}
+  {{ super() }}
+
+
+<!-- Begin text carousel intro section -->
+<!--<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(http://images.clipartpanda.com/light-bulb-idea-icon-Educator-Effectiveness-Tag_Icon_2881x1401_bw.jpg);"> -->
+
+<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-color: #FFFFFF ;" > 
+ 
+<style>
+    html, body {
+    width: 97%;
+    height: 38%;
+    margin: 0;
+    padding: 0;
+    }
+</style>
+<div class="col-md-3"></div>
+  <div class="container col-md-9" align="center">
+    <div class="caption text-centre text-black" data-stellar-ratio="0.7">
+      <div id="owl-intro-text" class="owl-carousel">
+	<div class="item">
+	  <h1 style="color: black; font-size: 20px;"> Only fill the kettle with the amount of water that you need</h1>
+	  <p>Save £80 a year on average</p>
+          <div class="extra-space-l"></div>
+	</div>
+	<div class="item">
+	  <h1 style="color: black; font-size: 20px;">Heat only the areas of your home that need heating</h1>
+	  <p>Save betweeen £75 and £155 on average</p>
+	  <div class="extra-space-l"></div>
+	</div>
+	<div class="item">
+	  <h1 style="color: black; font-size: 20px;">Free cavity wall insulation from your local government</h1>
+	  <p>Save £98 a year on average</p>
+	  <div class="extra-space-l"></div>
+	</div>
+	</div>
+      
+    </div> <!-- /.caption -->
+  </div> <!-- /.container -->
+  
+</section>
+<!-- End text carousel intro section -->
+
+  <!-- End page header-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="fact text-center col-md-3">
+	<div class="fact-inner">
+	  <i class="fa fa-tree"  style="font-size: 100px; color: green" ></i>
+	  <div class="extra-space-l"></div>
+	       <span class="counter" style= "font-size: 50px; color: green">11</span>
+	<p class="lead" style="color: green;">Trees Saved</p>
+      </div>
+    </div>
+    <div class="fact text-center col-md-3" >
+      <div class="fact-inner">
+	<i class="fa fa-plug" style="font-size: 100px; color: red"></i>
+        <div class="extra-space-l"></div>
+	<span class="counter" style= "font-size: 50px; color: red">12</span>
+	<p class="lead" style=" color: red">catergories of appliances</p>
+      </div>
+    </div>
+    <div class="fact text-center col-md-3">
+      <div class="fact-inner">
+	<i class="fa fa-user"  style="font-size: 100px; color: orange"></i>
+        <div class="extra-space-l"></div>
+	<span class="counter" style="font-size: 50px; color: orange">3</span>
+	<p class="lead" style="color: orange;">People in your house</p>
+      </div>
+    </div>
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
+</div>
+</section>
+<!-- End counter up -->
+<div class="extra-space-xl"></div>
+<div class="extra-space-m"></div>
+<div class="col-md-9"></div>
+  <div class="fact text-right col-md-3">
+    <div class="fact-inner">
+      <i class="fa fa-calendar"  style="font-size: 30px; color: grey"></i>
+	<p class="lead" style="font-size: 15px; color: grey;">27 Days from your next bill</p>
+
+
+<!-- Plugins JS -->
+		<script src="/static/inc/jquery/jquery-1.11.1.min.js"></script> 
+		<script src="/static/inc/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/static/inc/owl-carousel/js/owl.carousel.min.js"></script>
+		<script src="/static/inc/stellar/js/jquery.stellar.min.js"></script>
+		<script src="/static/inc/animations/js/wow.min.js"></script> 
+		<script src="/static/inc/waypoints.min.js"></script> 
+		<script src="/static/inc/isotope.pkgd.min.js"></script> 
+		<script src="/static/inc/classie.js"></script> 
+		<script src="/static/inc/jquery.easing.min.js"></script> 
+		<script src="/static/inc/jquery.counterup.min.js"></script> 
+		<script src="/static/inc/smoothscroll.js"></script> 
+
+		<!-- Theme JS -->
+		<script src="/static/js/theme.js"></script> 
+       
+
+
+{% endblock %}

@@ -1,0 +1,51 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(/static/img/slider-bg.jpg.png);">
+				
+			  <div class="container"> 
+			    <div class="caption text-center text-white" data-stellar-ratio="0.7">
+			      
+				<h1>Please login</h1>
+				   <br>
+					  
+				      <form action="" method="post" name="login">
+						  <input type="text" style="color:#000000" placeholder="Username" name="username" value="{{
+														   request.form.username }}">
+						  
+						  <br>
+						  <br>
+						  <input type="password" style="color:#000000" placeholder="Password" name="password" value="{{
+														       request.form.password }}">
+						  <br>
+						  <br>
+						  <input class="btn btn-default" type="submit" value="Sign In">						  
+				      </form>
+
+				      <br>
+                      <div class="row">
+                          <div class="col-sm-6 col-sm-offset-3 social-login">
+                          	<h3>...or login with:</h3>
+                          	<div class="social-login-buttons">
+  	                        	<a class="btn btn-link-2" href="{{ url_for('oauth_authorize', provider='facebook') }}">
+  	                        		<i class="fa fa-facebook" style="color:#3b5998"></i> <font color="#3b5998">Facebook</font>
+  	                        	</a>
+  	                        	<a class="btn btn-link-2" href="#">
+  	                        		<i class="fa fa-twitter" style="color:#0084b4"></i> <font color="#0084b4">Twitter</font>
+  	                        	</a>
+  	                        	<a class="btn btn-link-2" href="{{ url_for('oauth_authorize', provider='google') }}">
+  	                        		<i class="fa fa-google-plus"  style="color:#d50f25"></i> <font color="#d50f25">Google</font>
+  	                        	</a>
+                          	</div>
+                          </div>
+                      </div>
+					  
+					</div> <!-- /.caption -->
+				</div> <!-- /.container -->
+
+			</section>
+
+
+{% endblock %}
+        
